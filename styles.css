@@ -29,7 +29,7 @@ body{
 }
 .jumbotron{
   background: none;
-  margin: 75px 0
+  margin:50px 0
 }
 .container .jumbotron, .container-fluid .jumbotron{
   padding-left: 0;
@@ -40,6 +40,35 @@ body{
 }
 .jumbotron .lead{
   font-size: 32px;
+}
+.projectHeader{
+  text-align: center;
+}
+.slide1{
+  background-image: url('images/adoptfund.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-caption{
+  color: black;
+  margin-top: 100px;
+
+}
+.slide2{
+  background-image: url('images/howsittaste.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide3{
+  background-image: url('images/betsketball.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 @media (max-width:992px) {
   .jumbotron .welcome{
@@ -54,11 +83,6 @@ body{
     font-size: 20px;
   }
 }
-
-
-
-
-
 @media (max-width:768px) {
   .navbar-nav li a:after{
     content: '';
