@@ -29,9 +29,31 @@ body{
 }
 .jumbotron{
   background: none;
+  margin: 75px 0
 }
-
-
+.container .jumbotron, .container-fluid .jumbotron{
+  padding-left: 0;
+  padding-right: 0;
+}
+.jumbotron .welcome{
+  font-size: 120px;
+}
+.jumbotron .lead{
+  font-size: 32px;
+}
+@media (max-width:992px) {
+  .jumbotron .welcome{
+    font-size: 72px;
+  }
+}
+@media (max-width:768px) {
+  .jumbotron .welcome{
+    font-size: 40px;
+  }
+  .jumbotron .lead{
+    font-size: 20px;
+  }
+}
 
 
 
